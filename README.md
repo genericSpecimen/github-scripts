@@ -13,3 +13,4 @@ I always use SSH URLs, so if you intend to use this with HTTPS URLs, you may nee
 ## The scripts
 1. [create-repo](./create-repo.sh): This script will create a new repository (handles both local and remote repository creation).
 2. [clone-all-repos](./clone-all-repos.sh): This script will clone all the user's public and private repositories.
+3. [delete-repo](./delete-repo.sh): *WARNING*: This is a dangerous script. It will delete both your local AND remote repositories. Use at your own risk.
