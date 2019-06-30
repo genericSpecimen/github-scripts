@@ -1,6 +1,6 @@
 # github-scripts
 
-My experiments with the GitHub API to avoid opening the GitHub website, and try to access it from the command line.
+My experiments with the GitHub API to avoid opening the GitHub website.
 Note: These scripts may not work for your use case. They have been curated for my own personal needs.
 
 ## Authentication
