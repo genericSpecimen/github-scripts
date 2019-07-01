@@ -32,8 +32,6 @@ echo "Created: "$NEW_REPO_SSH_URL
 
 read -p 'Enter local path where the new repository should be placed: (. for current working directory) :' LOCAL_PATH
 mkdir $LOCAL_PATH/$REPO_NAME
-cd $LOCAL_PATH/$REPO_NAME
-git init
-git remote add origin $NEW_REPO_SSH_URL
+cd $LOCAL_PATH/$REPO_NAME && git init && git remote add origin $NEW_REPO_SSH_URL
 
 #------------------------------------------------------------
