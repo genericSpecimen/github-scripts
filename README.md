@@ -19,5 +19,5 @@ I always use SSH URLs, so if you intend to use this with HTTPS URLs, you may nee
 
 Simply make the script executable, using
 `chmod +x script.sh`
-You can place it wherever you like. If the script is in the current working directory, run them using:
+You can place it wherever you like. If the script is in the current working directory, run it using:
 `./script.sh`
